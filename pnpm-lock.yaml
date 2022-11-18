@@ -16,13 +16,11 @@ specifiers:
   eslint: ^8.25.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
-  gsap: npm:@gsap/business@^3.11.3
   prettier: ^2.7.1
   typescript: ^4.8.4
 
 dependencies:
   '@finsweet/ts-utils': 0.33.2
-  gsap: /@gsap/business/3.11.3
 
 devDependencies:
   '@changesets/changelog-git': 0.1.13
@@ -540,10 +538,6 @@ packages:
   /@finsweet/tsconfig/1.1.0:
     resolution: {integrity: sha512-P+cceRLc4wzcN3YfTCMqOQ1SfrxIFcMvC1lzgl8rd021ZcCNkdiOYlPkpZSL1lzDt2+9k4wFq4OUFcxALdOOsQ==}
     dev: true
-
-  /@gsap/business/3.11.3:
-    resolution: {integrity: sha512-u+8zXI2yOHk7IIzML5TzON+xUkwBnyIaHIo0qCI2OV7oISUyARDHQfbEpqcOL93niU4C7l1lZqniTRFK70Us3g==}
-    dev: false
 
   /@humanwhocodes/config-array/0.10.7:
     resolution: {integrity: sha512-MDl6D6sBsaV452/QSdX+4CXIjZhIcI0PELsxUjk4U828yd58vk3bTIvk/6w5FY+4hIy9sLW0sfrV7K7Kc++j/w==}

@@ -7,7 +7,7 @@ window.Webflow.push(() => {
   const name = 'John Doe';
   greetUser(name);
 
-  console.log('hello');
+  // console.log('hello');
 
-  const tl = gsap.timeline({ paused: true });
+  // const tl = gsap.timeline({ paused: true });
 });

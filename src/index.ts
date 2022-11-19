@@ -1,3 +1,5 @@
+import { gsap } from 'gsap';
+
 import { greetUser } from '$utils/greet';
 
 window.Webflow ||= [];
@@ -6,4 +8,6 @@ window.Webflow.push(() => {
   greetUser(name);
 
   console.log('hello');
+
+  const tl = gsap.timeline();
 });

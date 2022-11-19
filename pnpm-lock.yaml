@@ -1,24 +1,27 @@
 lockfileVersion: 5.4
 
+overrides:
+  gsap: npm:@gsap/business@3.11.3
+
 specifiers:
   '@changesets/changelog-git': ^0.1.13
-  '@changesets/cli': ^2.25.0
+  '@changesets/cli': ^2.25.2
   '@finsweet/eslint-config': ^1.1.5
   '@finsweet/ts-utils': ^0.33.2
   '@finsweet/tsconfig': ^1.1.0
-  '@playwright/test': ^1.27.0
-  '@trivago/prettier-plugin-sort-imports': ^3.3.0
+  '@playwright/test': ^1.28.0
+  '@trivago/prettier-plugin-sort-imports': ^3.4.0
   '@types/jquery': ^3.5.14
-  '@typescript-eslint/eslint-plugin': ^5.39.0
-  '@typescript-eslint/parser': ^5.39.0
+  '@typescript-eslint/eslint-plugin': ^5.43.0
+  '@typescript-eslint/parser': ^5.43.0
   cross-env: ^7.0.3
-  esbuild: ^0.15.10
-  eslint: ^8.25.0
+  esbuild: ^0.15.14
+  eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
-  gsap: npm:@gsap/business@^3.11.3
+  gsap: npm:@gsap/business@3.11.3
   prettier: ^2.7.1
-  typescript: ^4.8.4
+  typescript: ^4.9.3
 
 dependencies:
   '@finsweet/ts-utils': 0.33.2
@@ -847,7 +850,7 @@ packages:
   /@vue/compiler-core/3.2.45:
     resolution: {integrity: sha512-rcMj7H+PYe5wBV3iYeUgbCglC+pbpN8hBLTJvRiK2eKQiWqu+fG9F+8sW99JdL4LQi7Re178UOxn09puSXvn4A==}
     dependencies:
-      '@babel/parser': 7.20.3
+      '@babel/parser': 7.18.9
       '@vue/shared': 3.2.45
       estree-walker: 2.0.2
       source-map: 0.6.1
@@ -885,7 +888,7 @@ packages:
   /@vue/reactivity-transform/3.2.45:
     resolution: {integrity: sha512-BHVmzYAvM7vcU5WmuYqXpwaBHjsS8T63jlKGWVtHxAHIoMIlmaMyurUSEs1Zcg46M4AYT5MtB1U274/2aNzjJQ==}
     dependencies:
-      '@babel/parser': 7.20.3
+      '@babel/parser': 7.18.9
       '@vue/compiler-core': 3.2.45
       '@vue/shared': 3.2.45
       estree-walker: 2.0.2

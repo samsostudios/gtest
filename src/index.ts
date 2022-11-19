@@ -9,5 +9,5 @@ window.Webflow.push(() => {
 
   console.log('hello');
 
-  const tl = gsap.timeline();
+  const tl = gsap.timeline({ paused: true });
 });

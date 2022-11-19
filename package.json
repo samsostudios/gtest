@@ -52,7 +52,6 @@
     "typescript": "^4.9.3"
   },
   "dependencies": {
-    "@finsweet/ts-utils": "^0.33.2",
-    "gsap": "file:gsap-bonus.tgz"
+    "@finsweet/ts-utils": "^0.33.2"
   }
 }
